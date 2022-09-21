@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>คำนวนค่าไฟ</title>
+</head>
+<body>
+    <center><div class="allarea">
+        <h1>โปรแกรมคำนวนค่าไฟ</h1>
+            <div class="area">
+                <label for="Amoutwat">จำนวนวัตต์ของเครื่องใช้ไฟฟ้า</label><br>
+                <input type="text" id="Amoutwat" name="amoutwat"><br><br>
+                <label for="Amoutequipment">จำนวนเครื่องใช้ไฟฟ้า</label><br>
+                <input type="text" id="Amouteqm" name="amoutequipment"><br><br>
+                <label for="Amouthour">จำนวนชั่วโมงที่ใช้ต่อ 1 วัน</label><br>
+                <input type="text" id="Amouthr" name="amouthour"><br><br>
+
+                <button onclick="calculate(document.getElementById('Amoutwat','Amoutequipment','Amouthour').innerHTML)">คำนวนค่าไฟ</button>
+                <h2 id="answer"></h2>
+                <br>
+                <p>ค่าไฟจะอยู่ที่ ยูนิตละ 4.28 บาท</p>
+                
+        </div>
+    </div></center>
+    
+   
+    <script src="app.js"></script>
+
+    
+
+
+    
+</body>
+
+</html>
